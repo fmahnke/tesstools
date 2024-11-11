@@ -25,7 +25,8 @@ cd mortar/python-project
 
 ### Installing with pip
 
-It is recommended to use pdm instead.
+It is recommended to use [pdm](#installing-with-pdm-recommended-over-pip)
+instead.
 
 To install the package using pip:
 
