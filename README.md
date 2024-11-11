@@ -20,7 +20,7 @@ process to perform OCR function.
 
 ```
 git clone https://github.com/spectrumbranch/mortar.git
-cd mortar/python-project
+cd mortar
 ```
 
 ### Installing with pip
@@ -40,11 +40,11 @@ pip install .[dev]
 ### Installing with pdm (recommended over pip)
 
 - Install pdm using your package manager.
-- Run `pdm install`. The command creates a virtualenv with the `mortar` package
+- Run `pdm install`. The command creates a virtualenv with the mortar package
   and its dependencies installed inside it.
 
-The `pdm run` command runs a command from within the package environment.
-`pdm run nox` runs development checks, for example.
+With the package installed, the `pdm run` command runs a command from within
+the package environment. `pdm run nox` runs development checks, for example.
 
 ### Activating the virtualenv
 
